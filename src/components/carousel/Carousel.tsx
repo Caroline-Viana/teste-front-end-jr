@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import produto from '../../data/produto.json';
 import Item from './item/Item';
 import AliceCarousel from 'react-alice-carousel';
@@ -22,7 +22,7 @@ function Carousel() {
     512: {
         items: 4,
     },
-};
+  };
   
   return (
     <div className='carousel'>

@@ -1,4 +1,3 @@
-import React from 'react'
 import pagamento from '../../assets/formas_pagamento.png';
 import logos from '../../assets/logosbrancos.svg';
 import { BiLogoFacebook, BiLogoInstagram, BiLogoYoutube } from 'react-icons/bi';

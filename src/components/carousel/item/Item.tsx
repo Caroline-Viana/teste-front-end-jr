@@ -31,11 +31,11 @@ function Item(props: Celular) {
             <button className='card_btn'>COMPRAR</button>
         </div>
         <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={fecharModal}
-        contentLabel="Modal de exemplo"
-        className="modal"
-        overlayClassName="fundo"
+            isOpen={modalIsOpen}
+            onRequestClose={fecharModal}
+            contentLabel="Modal de exemplo"
+            className="modal"
+            overlayClassName="fundo"
         >
             <button onClick={fecharModal} className='fechar'><GrClose/></button>
             <div className='container'>
@@ -55,8 +55,6 @@ function Item(props: Celular) {
                     <button className='modal_btn'>Comprar</button>
                 </div>
             </div>
-            
-            
         </Modal>
     </>
   )
