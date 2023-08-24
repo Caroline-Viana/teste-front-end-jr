@@ -1,0 +1,136 @@
+.card {
+    box-shadow: 0px 3px 19px 0px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+    width: 250px;
+    padding: 16px 14px;
+    margin: 10px;
+    cursor: pointer;
+
+    &_titulo{
+        color: #3F3F40;
+        font-size: 15px;
+        font-weight: 300;
+        margin: 12px 0;
+    }
+
+    &_preço-anterior{
+        text-decoration: line-through;
+        font-weight: 400;
+        font-size: 16px;
+        color: #808080;
+    }
+
+    &_preço-atual{
+        color: #3F3F40;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 2px 0;
+    }
+
+    &_preço-parcelado{
+        font-size: 12px;
+        color: #3F3F40;
+        font-weight: 400;
+    }
+
+    &_frete{
+        margin: 7px 0 12px 0;
+        color: #F71963;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    &_btn{
+        width: 100%;
+        text-align: center;
+        background-color: #F71963;
+        border-radius: 4px;
+        padding: 10px 0;
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+}
+
+.modal{
+    height: 300px;
+    width: 769px;
+    margin: 8rem auto;
+    background-color: #FFF;
+    padding: 40px 50px 20px 50px;
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .modal_titulo{
+        color: #041E50;
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    .modal_preco{
+        color: #041E50;
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+
+    .modal_descricao{
+        color: #222;
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        margin-bottom: 25px;
+    }
+
+    .modal_ver{
+        color: #041E50;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.6px;
+        margin-bottom: 15px;
+    }
+
+    .modal_qtd{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border: 1px solid #041E50;
+        width: 30%;
+        border-radius: 4px;
+    }
+
+    .modal_btn{
+        font-size: 14px;
+        font-weight: 700;
+        color: #FFF;
+        padding: 15px 65px;
+        width: 245px;
+        border-radius: 4px;
+        background-color: #F71963;
+        margin-top: 16px;
+    }
+
+    .fechar{
+        position: relative;
+        left: 47rem;
+        top: -0.5rem;
+        cursor: pointer;
+    }
+}
+
+.fundo{
+    background-color: #3f3f409c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

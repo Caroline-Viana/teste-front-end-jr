@@ -1,0 +1,88 @@
+.navbar{
+    margin: auto 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_destaque{
+        &-opcoes{
+            display: flex;
+            gap: 119px;
+            padding: 7px 0;
+            .opcoes{
+                display: flex;
+                gap: 9px;
+                align-items: center;
+
+                p {
+                    color: #9F9F9F;
+                    font-size: 12px;
+                    font-weight: 500;
+
+                    span {
+                        color: #F71963;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+
+    &_principal{
+        display: flex;
+        padding: 7px 56px;
+        border-top: 1px solid #F0F0F0;
+        border-bottom: 1px solid #F0F0F0;
+        align-items: center;
+
+        &-input {
+            margin: 0 61px 0 95px;
+            width: 637px;
+            height: 28px;
+            border-radius: 10px;
+            background-color: #F6F5F2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+
+            .buscar {
+                width: 95%;
+                border: none;
+                background-color: #F6F5F2;
+            }
+        }
+
+        &-icons {
+            display: flex;
+            gap: 32px;
+            cursor: pointer;
+        }
+    }
+
+    &_categorias {
+        display: flex;
+        gap: 91px;
+        padding: 11px 56px;
+        box-shadow: 0px 8px 16px 0px rgba(57, 48, 19, 0.12);
+        align-items: center;
+        width: 100%;
+
+        h4 {
+            font-size: 12px;
+            font-weight: 600;
+            transition: .5s;
+
+            &:hover{
+                color: #F71963;
+                cursor: pointer;
+            }
+        }
+
+        .assinatura{
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+    }
+}
